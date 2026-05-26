@@ -29,7 +29,7 @@ I like to build software for making harder things easier.
 <strong>aiskills</strong><br>
 <img src="https://img.shields.io/github/languages/top/uinstinct/aiskills?color=3572A5" alt="language">
 <img src="https://img.shields.io/github/commit-activity/t/uinstinct/aiskills?color=4F6BED" alt="commits"><br>
-<sub>ai skills used</sub>
+<sub>ai skills used for my harnesses</sub>
 </td>
 </tr>
 <tr>
@@ -73,34 +73,30 @@ I like to build software for making harder things easier.
 ---
 
 <div align="center"><em>Projects I got the chance to work as part of the core team.</em></div>
+<br>
 
 <div align="center">
 <table>
 <tr>
-<td width="50%" align="center">
+<td width="33%" align="center">
 <strong>continuedev/continue</strong><br>
 <img src="https://img.shields.io/github/stars/continuedev/continue?style=for-the-badge&color=f5c542" alt="stars"><br>
 <img src="https://img.shields.io/badge/dynamic/json?label=open&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Drepo%3Acontinuedev%2Fcontinue%2Bauthor%3Auinstinct%2Bis%3Apr%2Bstate%3Aopen&color=2ea043" alt="PRs open">
 <img src="https://img.shields.io/badge/dynamic/json?label=closed&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Drepo%3Acontinuedev%2Fcontinue%2Bauthor%3Auinstinct%2Bis%3Apr%2Bstate%3Aclosed&color=8250df" alt="PRs closed"><br>
 <sub>@uinstinct</sub>
 </td>
-<td width="50%" align="center">
+<td width="33%" align="center">
 <strong>etherealengine/etherealengine</strong><br>
 <img src="https://img.shields.io/github/stars/ir-engine/etherealengine-archive?style=for-the-badge&color=f5c542" alt="stars"><br>
-<img src="https://img.shields.io/badge/dynamic/json?label=open&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Drepo%3Air-engine%2Fetherealengine-archive%2Bauthor%3Aaditya-mitra%2Bis%3Apr%2Bstate%3Aopen&color=2ea043" alt="PRs open">
-<img src="https://img.shields.io/badge/dynamic/json?label=closed&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Drepo%3Air-engine%2Fetherealengine-archive%2Bauthor%3Aaditya-mitra%2Bis%3Apr%2Bstate%3Aclosed&color=8250df" alt="PRs closed"><br>
+<img src="https://img.shields.io/badge/PRs-84_combined-8250df" alt="PRs"><br>
 <sub>@aditya-mitra</sub>
 </td>
-</tr>
-<tr>
-<td width="50%" align="center">
+<td width="33%" align="center">
 <strong>RocketChat/Rocket.Chat</strong><br>
 <img src="https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=for-the-badge&color=f5c542" alt="stars"><br>
 <img src="https://img.shields.io/badge/dynamic/json?label=open&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Drepo%3ARocketChat%2FRocket.Chat%2Bauthor%3Aaditya-mitra%2Bis%3Apr%2Bstate%3Aopen&color=2ea043" alt="PRs open">
 <img src="https://img.shields.io/badge/dynamic/json?label=closed&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Drepo%3ARocketChat%2FRocket.Chat%2Bauthor%3Aaditya-mitra%2Bis%3Apr%2Bstate%3Aclosed&color=8250df" alt="PRs closed"><br>
 <sub>@aditya-mitra</sub>
-</td>
-<td width="50%" align="center">
 </td>
 </tr>
 </table>
