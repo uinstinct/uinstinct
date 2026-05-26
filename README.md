@@ -85,7 +85,7 @@ I like to build software for making harder things easier.
 <sub>@uinstinct</sub>
 </td>
 <td width="50%" align="center">
-<strong>etherealengine</strong><br>
+<strong>etherealengine/etherealengine</strong><br>
 <img src="https://img.shields.io/github/stars/ir-engine/etherealengine-archive?style=for-the-badge&color=f5c542" alt="stars"><br>
 <img src="https://img.shields.io/badge/dynamic/json?label=open&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Drepo%3Air-engine%2Fetherealengine-archive%2Bauthor%3Aaditya-mitra%2Bis%3Apr%2Bstate%3Aopen&color=2ea043" alt="PRs open">
 <img src="https://img.shields.io/badge/dynamic/json?label=closed&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Drepo%3Air-engine%2Fetherealengine-archive%2Bauthor%3Aaditya-mitra%2Bis%3Apr%2Bstate%3Aclosed&color=8250df" alt="PRs closed"><br>
