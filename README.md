@@ -12,6 +12,10 @@ I like to build software for making harder things easier.
 
 ---
 
+<div align="center">
+  <img src="profile-3d-contrib/profile-gitblock.svg" alt="commit graph" width="720">
+</div>
+
 <div align="center"><em>Building and maintaining open-source tools.</em></div>
 
 ### 🚧 happening now
