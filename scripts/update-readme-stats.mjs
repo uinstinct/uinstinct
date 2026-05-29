@@ -228,37 +228,38 @@ async function main() {
 
   writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2) + '\n', 'utf8');
 
-  let rendered = '';
+  const parts = [];
   for (const block of projects.blocks) {
     if (block.kind === 'markdown') {
-      rendered += block.content;
-      if (!rendered.endsWith('\n')) rendered += '\n';
+      parts.push(block.content.replace(/\n+$/, ''));
     } else if (block.kind === 'grid') {
       const cols = block.columns || 2;
-      rendered += '<div align="center">\n<table>\n';
+      let grid = '<div align="center">\n<table>\n';
       for (let i = 0; i < block.cards.length; i += cols) {
-        rendered += '<tr>\n';
+        grid += '<tr>\n';
         for (let j = i; j < i + cols && j < block.cards.length; j++) {
           const card = block.cards[j];
           const widthPct = Math.round(100 / cols);
-          rendered += `<td width="${widthPct}%" align="center">\n`;
+          grid += `<td width="${widthPct}%" align="center">\n`;
           const link = card.link || `https://github.com/${card.repo}`;
-          rendered += `<a href="${link}"><strong>${card.name}</strong></a><br>\n`;
+          grid += `<a href="${link}"><strong>${card.name}</strong></a><br>\n`;
           for (const badge of card.badges) {
-            rendered += `<img src="${badge._url}" alt="${badge._alt}">`;
-            if (badge.break) rendered += '<br>\n';
+            grid += `<img src="${badge._url}" alt="${badge._alt}">`;
+            if (badge.break) grid += '<br>\n';
           }
-          rendered += '<br>\n';
+          grid += '<br>\n';
           if (card.blurb) {
-            rendered += `<sub>${card.blurb}</sub>\n`;
+            grid += `<sub>${card.blurb}</sub>\n`;
           }
-          rendered += '</td>\n';
+          grid += '</td>\n';
         }
-        rendered += '</tr>\n';
+        grid += '</tr>\n';
       }
-      rendered += '</table>\n</div>\n';
+      grid += '</table>\n</div>';
+      parts.push(grid);
     }
   }
+  const rendered = parts.join('\n\n');
 
   let readme = readFileSync(README_PATH, 'utf8');
   const startMarker = '<!-- stats:start -->';
@@ -273,7 +274,7 @@ async function main() {
 
   const before = readme.slice(0, startIdx + startMarker.length);
   const after = readme.slice(endIdx);
-  readme = before + '\n' + rendered + after;
+  readme = before + '\n\n' + rendered + '\n\n' + after;
   writeFileSync(README_PATH, readme, 'utf8');
   console.log('README.md updated successfully.');
 }

@@ -12,6 +12,7 @@ I like to build software for making harder things easier.
 
 ---
 <!-- stats:start -->
+
 <div align="center">
   <img src="profile-3d-contrib/profile-green-animate.svg" alt="3D contribution graph" width="720">
 </div>
@@ -19,6 +20,7 @@ I like to build software for making harder things easier.
 <div align="center"><em>Building and maintaining open-source tools.</em></div>
 
 ### 🚧 happening now
+
 <div align="center">
 <table>
 <tr>
@@ -47,7 +49,9 @@ I like to build software for making harder things easier.
 </tr>
 </table>
 </div>
+
 ### ✅ recently finished
+
 <div align="center">
 <table>
 <tr>
@@ -64,6 +68,7 @@ I like to build software for making harder things easier.
 </tr>
 </table>
 </div>
+
 ---
 
 <div align="center"><em>Projects I got the chance to work as part of the core team.</em></div>
@@ -90,6 +95,7 @@ I like to build software for making harder things easier.
 </tr>
 </table>
 </div>
+
 <!-- stats:end -->
 ---
 
