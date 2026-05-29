@@ -2,7 +2,7 @@
   "blocks": [
     {
       "kind": "markdown",
-      "content": "<div align=\"center\">\n  <img src=\"profile-3d-contrib/profile-green-animate.svg\" alt=\"3D contribution graph\" width=\"720\">\n</div>\n\n<div align=\"center\"><em>Building and maintaining open-source tools.</em></div>\n\n### 🚧 happening now"
+      "content": "<div align=\"center\">\n  <img src=\"profile-3d-contrib/profile-green-animate.svg\" alt=\"3D contribution graph\" width=\"720\">\n</div>\n\n<div align=\"center\"><em>Building and maintaining open-source tools.</em></div>\n\n<div align=\"center\">\n\n### 🚧 happening now\n\n</div>"
     },
     {
       "kind": "grid",
@@ -48,7 +48,7 @@
     },
     {
       "kind": "markdown",
-      "content": "### ✅ recently finished"
+      "content": "<div align=\"center\">\n\n### ✅ recently finished\n\n</div>"
     },
     {
       "kind": "grid",

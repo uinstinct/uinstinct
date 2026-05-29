@@ -19,7 +19,11 @@ I like to build software for making harder things easier.
 
 <div align="center"><em>Building and maintaining open-source tools.</em></div>
 
+<div align="center">
+
 ### 🚧 happening now
+
+</div>
 
 <div align="center">
 <table>
@@ -50,7 +54,11 @@ I like to build software for making harder things easier.
 </table>
 </div>
 
+<div align="center">
+
 ### ✅ recently finished
+
+</div>
 
 <div align="center">
 <table>
