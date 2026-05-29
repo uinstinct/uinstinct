@@ -1,0 +1,113 @@
+{
+  "blocks": [
+    {
+      "kind": "markdown",
+      "content": "<div align=\"center\">\n  <img src=\"profile-3d-contrib/profile-green-animate.svg\" alt=\"3D contribution graph\" width=\"720\">\n</div>\n\n<div align=\"center\"><em>Building and maintaining open-source tools.</em></div>\n\n### 🚧 happening now"
+    },
+    {
+      "kind": "grid",
+      "columns": 2,
+      "cards": [
+        {
+          "name": "git-author-reformer",
+          "repo": "uinstinct/git-author-reformer",
+          "blurb": "a simple one-line tool to change, rename, remove git commit authors in bulk or selection",
+          "badges": [
+            { "kind": "language" },
+            { "kind": "commits" }
+          ]
+        },
+        {
+          "name": "aiskills",
+          "repo": "uinstinct/aiskills",
+          "blurb": "ai skills used for my harnesses",
+          "badges": [
+            { "kind": "language" },
+            { "kind": "commits" }
+          ]
+        },
+        {
+          "name": "claude-code-researcher",
+          "repo": "uinstinct/claude-code-researcher",
+          "blurb": "Docker-based Claude Code runner for long-running research tasks",
+          "badges": [
+            { "kind": "language" },
+            { "kind": "commits" }
+          ]
+        },
+        {
+          "name": "questionnairebot",
+          "repo": "uinstinct/questionnairebot",
+          "blurb": "a telegram questionnairebot to ask weekly checkin type questions",
+          "badges": [
+            { "kind": "language" },
+            { "kind": "commits" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "markdown",
+      "content": "### ✅ recently finished"
+    },
+    {
+      "kind": "grid",
+      "columns": 2,
+      "cards": [
+        {
+          "name": "SkyReminder",
+          "repo": "uinstinct/SkyReminder",
+          "blurb": "An aeriel advertising propeller plane sends you reminders!",
+          "badges": [
+            { "kind": "language" },
+            { "kind": "commits" }
+          ]
+        },
+        {
+          "name": "svelte-wheel-picker",
+          "repo": "uinstinct/svelte-wheel-picker",
+          "blurb": "iOS-style wheel picker for svelte",
+          "badges": [
+            { "kind": "language" },
+            { "kind": "commits" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "markdown",
+      "content": "---\n\n<div align=\"center\"><em>Projects I got the chance to work as part of the core team.</em></div>\n<br>\n\n"
+    },
+    {
+      "kind": "grid",
+      "columns": 3,
+      "cards": [
+        {
+          "name": "continuedev/continue",
+          "repo": "continuedev/continue",
+          "badges": [
+            { "kind": "stars", "repo": "continuedev/continue", "style": "for-the-badge", "break": true },
+            { "kind": "prs", "repo": "continuedev/continue", "author": "uinstinct" }
+          ]
+        },
+        {
+          "name": "etherealengine/etherealengine",
+          "repo": "etherealengine/etherealengine",
+          "link": "https://github.com/ir-engine/etherealengine-archive",
+          "badges": [
+            { "kind": "stars", "repo": "ir-engine/etherealengine-archive", "style": "for-the-badge", "break": true },
+            { "kind": "prs", "value": 84 }
+          ]
+        },
+        {
+          "name": "RocketChat/Rocket.Chat",
+          "repo": "RocketChat/Rocket.Chat",
+          "badges": [
+            { "kind": "stars", "repo": "RocketChat/Rocket.Chat", "style": "for-the-badge", "break": true },
+            { "kind": "prs", "repo": "RocketChat/Rocket.Chat", "author": "aditya-mitra" }
+          ]
+        }
+      ]
+    }
+  ]
+}

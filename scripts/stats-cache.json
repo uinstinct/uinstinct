@@ -1,0 +1,19 @@
+{
+  "uinstinct/git-author-reformer|language": "Rust",
+  "uinstinct/git-author-reformer|commits": 253,
+  "uinstinct/aiskills|language": "Python",
+  "uinstinct/aiskills|commits": 88,
+  "uinstinct/claude-code-researcher|language": "Dockerfile",
+  "uinstinct/claude-code-researcher|commits": 20,
+  "uinstinct/questionnairebot|language": "Go",
+  "uinstinct/questionnairebot|commits": 60,
+  "uinstinct/SkyReminder|language": "TypeScript",
+  "uinstinct/SkyReminder|commits": 21,
+  "uinstinct/svelte-wheel-picker|language": "TypeScript",
+  "uinstinct/svelte-wheel-picker|commits": 308,
+  "continuedev/continue|stars": 33449,
+  "continuedev/continue|prs|uinstinct": 297,
+  "ir-engine/etherealengine-archive|stars": 709,
+  "RocketChat/Rocket.Chat|stars": 45380,
+  "RocketChat/Rocket.Chat|prs|aditya-mitra": 33
+}
