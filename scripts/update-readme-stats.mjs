@@ -244,7 +244,7 @@ async function main() {
           const link = card.link || `https://github.com/${card.repo}`;
           grid += `<a href="${link}"><strong>${card.name}</strong></a><br>\n`;
           for (const badge of card.badges) {
-            grid += `<img src="${badge._url}" alt="${badge._alt}">`;
+            grid += `<img src="${badge._url}" alt="${badge._alt}">&nbsp;`;
             if (badge.break) grid += '<br>\n';
           }
           grid += '<br>\n';
